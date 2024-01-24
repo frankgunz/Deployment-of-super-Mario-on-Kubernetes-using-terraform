@@ -2,9 +2,9 @@
 terraform {
   backend "s3" {
     bucket    = "geterraform"
-    key       = "Mario"
+    key       = "Mario/terraform.tfstate"
     region    = "us-east-1"
-    profile   = "Super_mario"
+#    profile   = "Super_mario"
 #    dynamodb_table = "terraform-state-lock"
   }
 }
