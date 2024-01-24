@@ -4,7 +4,7 @@ terraform {
     bucket    = "geterraform"
     key       = "Mario"
     region    = "us-east-1"
-    profile   = "terraform-user"
+    profile   = "Super_mario"
 #    dynamodb_table = "terraform-state-lock"
   }
 }
