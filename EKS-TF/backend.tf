@@ -1,9 +1,9 @@
 # store the terraform state file in s3
 terraform {
   backend "s3" {
-    bucket    = "game24"
+    bucket    = "geterraform"
     key       = "Mario"
-    region    = "ap-south-1"
+    region    = "us-east-1"
     profile   = "terraform-user"
 #    dynamodb_table = "terraform-state-lock"
   }
